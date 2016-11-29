@@ -59,7 +59,9 @@ General support questions should be discussed in the `#rug-lang`
 channel on our community slack team
 at [atomist-community.slack.com](https://join.atomist.com).
 
-If you find a problem, please create an [issue](issues).
+If you find a problem, please create an [issue][].
+
+[issue]: https://github.com/atomist/rug-compiler/issues
 
 ## Developing
 
