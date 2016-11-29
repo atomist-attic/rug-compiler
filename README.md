@@ -55,7 +55,7 @@ Be sure to change the `<version>` to the one you want to use.
 
 ## Support
 
-General support questions should be discussed in the `#rug-lang`
+General support questions should be discussed in the `#rug-types`
 channel on our community slack team
 at [atomist-community.slack.com](https://join.atomist.com).
 
