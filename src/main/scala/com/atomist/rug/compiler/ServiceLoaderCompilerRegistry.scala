@@ -13,6 +13,6 @@ object ServiceLoaderCompilerRegistry
   private lazy val compilers: Seq[Compiler] = ServiceLoader.load(classOf[Compiler]).asScala.toSeq
 
   override def findAll(source: ArtifactSource): Seq[Compiler] =
-    compilers.filter(c => c.supports(source))
+    compilers.filter(c => c.supports(source)).sortBy {_.order}
 
 }

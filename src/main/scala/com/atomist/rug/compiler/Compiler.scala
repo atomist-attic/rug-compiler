@@ -10,5 +10,7 @@ trait Compiler {
   
   def name: String
   
-  def extension: String
+  def extensions: Seq[String]
+  
+  def order: Int = Integer.MAX_VALUE
 }
