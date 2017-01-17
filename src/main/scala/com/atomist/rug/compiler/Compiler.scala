@@ -1,5 +1,7 @@
 package com.atomist.rug.compiler
 
+import java.util.Set
+
 import com.atomist.source.ArtifactSource
 
 trait Compiler {
@@ -10,7 +12,7 @@ trait Compiler {
   
   def name: String
   
-  def extensions: Seq[String]
+  def extensions: Set[String]
   
   def order: Int = Integer.MAX_VALUE
 }
