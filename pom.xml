@@ -31,7 +31,7 @@
 			<dependency>
 				<groupId>com.atomist</groupId>
 				<artifactId>atomist-bom</artifactId>
-				<version>0.8.0</version>
+				<version>1.0.0-m.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>com.atomist</groupId>
 			<artifactId>artifact-source</artifactId>
-			<version>0.14.4</version>
+			<version>1.0.0-m.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-lang.modules</groupId>
